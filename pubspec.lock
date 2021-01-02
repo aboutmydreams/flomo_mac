@@ -100,12 +100,19 @@ packages:
     source: hosted
     version: "2.1.5"
   cupertino_icons:
-    dependency: "direct main"
+    dependency: "direct overridden"
     description:
       name: cupertino_icons
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.2"
+  desktop_window:
+    dependency: "direct overridden"
+    description:
+      name: desktop_window
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.3.0"
   fake_async:
     dependency: transitive
     description:
@@ -130,6 +137,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_macos_webview:
+    dependency: "direct overridden"
+    description:
+      path: "."
+      ref: HEAD
+      resolved-ref: "9ac13d35728a40094363d79e4451a7622550491d"
+      url: "https://github.com/vanelizarov/flutter_macos_webview.git"
+    source: git
+    version: "0.0.4"
   flutter_test:
     dependency: "direct dev"
     description: flutter
